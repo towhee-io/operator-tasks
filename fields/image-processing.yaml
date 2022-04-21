@@ -1,0 +1,4 @@
+field-name: "Computer Vision"
+tasks:
+  - image_decode
+  - image_crop
