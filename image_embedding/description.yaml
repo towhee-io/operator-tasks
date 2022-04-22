@@ -248,11 +248,6 @@ models:
             - "image-embedding.timm('tf_efficientnetv2_xl_in21ft1k')"
             - "image-embedding.timm('tf_efficientnetv2_xl_in21k')"
             - "image-embedding.timm('gc_efficientnetv2_rw_t')"
-            - "image-embedding.timm('')"
-            - "image-embedding.timm('')"
-            - "image-embedding.timm('')"
-            - "image-embedding.timm('')"
-            - "image-embedding.timm('')"
     - vit:
         model: "ViT"
         op-name: "image-embedding.timm"
