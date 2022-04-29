@@ -1,0 +1,9 @@
+task-name: "Image Crop"
+description: "Image crop operators crop an image based on a set of given bounding boxes."
+img-credit: "Lenna"
+img-ref: "https://en.wikipedia.org/wiki/Lenna"
+operator-implementations:
+    - default:
+        implementation: "Default"
+        op-name: "image_crop"
+        op-link: "https://towhee.io/towhee/image-crop"
