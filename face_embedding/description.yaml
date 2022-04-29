@@ -1,0 +1,54 @@
+task-name: "Face Embedding"
+description: "Face Embedding can be regarded as a specific case of image embedding. Face embedding operators extract facial features from an input photo, encoding the face into an embedding vector that is invariant to lighting, direction, emotion, etc... It is a fundamental task type that can be used in a variety of applications based on facial feature analysis, including face classification, Re-ID, tracking, etc."
+img-credit: "Lenna"
+img-ref: "https://en.wikipedia.org/wiki/Lenna"
+models:
+    - inception-resnet:
+        model: "Inception-ResNet"
+        op-name: "face_embedding.inceptionresnetv1"
+        op-link: "https://towhee.io/face-embedding/inceptionresnetv1"
+        pretrained-models:
+            - "face_embedding.inceptionresnetv1()"
+    - vgg-face:
+        model: "VGG-Face"
+        op-name: "face_embedding.deepface"
+        op-link: "https://towhee.io/face-embedding/deepface"
+        pretrained-models:
+            - "face_embedding.deepface('VGG-Face')"
+    - facenet:
+        model: "FaceNet"
+        op-name: "face_embedding.deepface"
+        op-link: "https://towhee.io/face-embedding/deepface"
+        pretrained-models:
+            - "face_embedding.deepface('Facenet')"
+            - "face_embedding.deepface('Facenet512')"
+    - openface:
+        model: "OpenFace"
+        op-name: "face_embedding.deepface"
+        op-link: "https://towhee.io/face-embedding/deepface"
+        pretrained-models:
+            - "face_embedding.deepface('OpenFace')"
+    - deepface:
+        model: "DeepFace"
+        op-name: "face_embedding.deepface"
+        op-link: "https://towhee.io/face-embedding/deepface"
+        pretrained-models:
+            - "face_embedding.deepface('DeepFace')"
+    - deepid:
+        model: "DeepID"
+        op-name: "face_embedding.deepface"
+        op-link: "https://towhee.io/face-embedding/deepface"
+        pretrained-models:
+            - "face_embedding.deepface('DeepID')"
+    - arcface:
+        model: "ArcFace"
+        op-name: "face_embedding.deepface"
+        op-link: "https://towhee.io/face-embedding/deepface"
+        pretrained-models:
+            - "face_embedding.deepface('ArcFace')"
+    - dlib:
+        model: "Dlib"
+        op-name: "face_embedding.deepface"
+        op-link: "https://towhee.io/face-embedding/deepface"
+        pretrained-models:
+            - "face_embedding.deepface('Dlib')"
