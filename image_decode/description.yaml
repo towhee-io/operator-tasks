@@ -1,0 +1,13 @@
+task-name: "Image Decode"
+description: "Image decode operators convert an encoded image back to its uncompressed format. In most cases, image decoding is the first step of an image processing pipeline."
+img-credit: "Future"
+img-ref: "https://www.creativebloq.com/advice/image-file-formats"
+operator-implementations:
+    - default:
+        implementation: "Default"
+        op-name: "image_decode"
+        op-link: "https://towhee.io/towhee/image-decode"
+    - cv2:
+        implementation: "OpenCV"
+        op-name: "image_decode.cv2"
+        op-link: "https://towhee.io/image-decode/cv2"
