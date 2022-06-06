@@ -1,4 +1,0 @@
-field-name: "Image Processing"
-tasks:
-  - image_decode
-  - image_crop
