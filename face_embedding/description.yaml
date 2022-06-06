@@ -14,41 +14,41 @@ models:
         op-name: "face_embedding.deepface"
         op-link: "https://towhee.io/face-embedding/deepface"
         pretrained-models:
-            - "face_embedding.deepface('VGG-Face')"
+            - "face_embedding.deepface(model_name = 'VGG-Face')"
     - facenet:
         model: "FaceNet"
         op-name: "face_embedding.deepface"
         op-link: "https://towhee.io/face-embedding/deepface"
         pretrained-models:
-            - "face_embedding.deepface('Facenet')"
-            - "face_embedding.deepface('Facenet512')"
+            - "face_embedding.deepface(model_name = 'Facenet')"
+            - "face_embedding.deepface(model_name = 'Facenet512')"
     - openface:
         model: "OpenFace"
         op-name: "face_embedding.deepface"
         op-link: "https://towhee.io/face-embedding/deepface"
         pretrained-models:
-            - "face_embedding.deepface('OpenFace')"
+            - "face_embedding.deepface(model_name = 'OpenFace')"
     - deepface:
         model: "DeepFace"
         op-name: "face_embedding.deepface"
         op-link: "https://towhee.io/face-embedding/deepface"
         pretrained-models:
-            - "face_embedding.deepface('DeepFace')"
+            - "face_embedding.deepface(model_name = 'DeepFace')"
     - deepid:
         model: "DeepID"
         op-name: "face_embedding.deepface"
         op-link: "https://towhee.io/face-embedding/deepface"
         pretrained-models:
-            - "face_embedding.deepface('DeepID')"
+            - "face_embedding.deepface(model_name = 'DeepID')"
     - arcface:
         model: "ArcFace"
         op-name: "face_embedding.deepface"
         op-link: "https://towhee.io/face-embedding/deepface"
         pretrained-models:
-            - "face_embedding.deepface('ArcFace')"
+            - "face_embedding.deepface(model_name = 'ArcFace')"
     - dlib:
         model: "Dlib"
         op-name: "face_embedding.deepface"
         op-link: "https://towhee.io/face-embedding/deepface"
         pretrained-models:
-            - "face_embedding.deepface('Dlib')"
+            - "face_embedding.deepface(model_name = 'Dlib')"
