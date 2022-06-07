@@ -1,0 +1,21 @@
+task-name: "Image/Text Embedding"
+description: "This is a task that attempts to comprehend images and texts, and encode both image's and text's semantics into a same embedding space. It is a fundamental task type that can be used in a variety of applications, such as cross-modal retrieval."
+img-credit: "Comment of a cat object"
+img-ref: "https://www.reddit.com/r/ProgrammerHumor/comments/8w54mx/code_comments_be_like/"
+models:
+    - clip:
+        model: "CLIP"
+        op-name: "image_text_embedding.clip"
+        op-link: "https://towhee.io/image-text-embedding/clip"
+        pretrained-models:
+            - "image_text_embedding.clip(model_name='clip_resnet_r50')"
+            - "image_text_embedding.clip(model_name='clip_resnet_r101')"
+            - "image_text_embedding.clip(model_name='clip_vit_b16')"
+            - "image_text_embedding.clip(model_name='clip_vit_b32')"
+    - lightningdot:
+        model: "LightningDOT"
+        op-name: "image_text_embedding.lightningdot"
+        op-link: "https://towhee.io/image-text-embedding/lightningdot"
+        pretrained-models:
+            - "image_text_embedding.lightningdot()"
+     
