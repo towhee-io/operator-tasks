@@ -1,0 +1,11 @@
+task-name: "Face Landmark Detection"
+description: "Face Landmark Detection is a computer vision technique that tracks and detects pre-defined keypoints in the facial image. Facial landmark detection has application in facial image alignment, expression detection, avatar controlling."
+img-credit: "Style Aggregated Network for Facial Landmark Detection"
+img-ref: "https://arxiv.org/pdf/1803.04108v4.pdf"
+models:
+    - mobilefacenet:
+        model: "MobileFaceNets"
+        op-name: "face_landmark_detection.mobilefacenet"
+        op-link: "https://towhee.io/face-landmark-detection/mobilefacenet"
+        pretrained-models:
+            - "face_landmark_detection.mobilefacenet()"

@@ -4,6 +4,7 @@ tasks:
   - face_embedding
   - object_detection
   - face_detection
+  - face_landmark_detection
   - action_classification
   - image_decode
   - image_crop
