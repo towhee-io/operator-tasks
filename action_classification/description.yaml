@@ -1,0 +1,58 @@
+task-name: "Action Classification"
+description: "An Action classification operator applies a pretrained classification model to video data. It classifies video data into some predefined human action categories. It also supports feature extraction to generate a video embedding given video data."
+img-credit: "Human actions"
+img-ref: "https://www.svgimages.com/png/humans-actions.html"
+models:
+    - actionclip:
+        model: "ActionCLIP"
+        op-name: "action_classification.actionclip"
+        op-link: "https://towhee.io/action-classification/actionclip"
+        pretrained-models:
+            - "action_classification.actionclip(model_name='clip_vit_b16')"
+            - "action_classification.actionclip(model_name='clip_vit_b32')"
+    - timesformer:
+        model: "TimeSformer"
+        op-name: "action_classification.timesformer"
+        op-link: "https://towhee.io/action-classification/timesformer"
+        pretrained-models:
+            - "action_classification.timesformer(model_name='timesformer_k400_8x224')"
+    - c2d:
+        model: "C2D"
+        op-name: "action_classification.pytorchvideo"
+        op-link: "https://towhee.io/action-classification/pytorchvideo"
+        pretrained-models:
+            - "action_classification.pytorchvideo(model_name='c2d_r50')"
+    - i3d:
+        model: "I3D"
+        op-name: "action_classification.pytorchvideo"
+        op-link: "https://towhee.io/action-classification/pytorchvideo"
+        pretrained-models:
+            - "action_classification.pytorchvideo(model_name='i3d_r50')"
+    - slow:
+        model: "Slow"
+        op-name: "action_classification.pytorchvideo"
+        op-link: "https://towhee.io/action-classification/pytorchvideo"
+        pretrained-models:
+            - "action_classification.pytorchvideo(model_name='slow_r50')"
+    - slowfast:
+        model: "SlowFast"
+        op-name: "action_classification.pytorchvideo"
+        op-link: "https://towhee.io/action-classification/pytorchvideo"
+        pretrained-models:
+            - "action_classification.pytorchvideo(model_name='slowfast_r50')"
+            - "action_classification.pytorchvideo(model_name='slowfast_r101')"
+    - x3d:
+        model: "X3D"
+        op-name: "action_classification.pytorchvideo"
+        op-link: "https://towhee.io/action-classification/pytorchvideo"
+        pretrained-models:
+            - "action_classification.pytorchvideo(model_name='x3d_xs')"
+            - "action_classification.pytorchvideo(model_name='x3d_s')"
+            - "action_classification.pytorchvideo(model_name='x3d_m')"
+    - mvit:
+        model: "MViT"
+        op-name: "action_classification.pytorchvideo"
+        op-link: "https://towhee.io/action-classification/pytorchvideo"
+        pretrained-models:
+            - "action_classification.pytorchvideo(model_name='mvit_base_16x4')"
+            - "action_classification.pytorchvideo(model_name='mvit_base_32x3')"
