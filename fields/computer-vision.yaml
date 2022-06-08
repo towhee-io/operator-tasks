@@ -2,5 +2,6 @@ field-name: "Computer Vision"
 tasks:
   - image_embedding
   - face_embedding
+  - object_detection
   - image_decode
   - image_crop

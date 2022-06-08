@@ -1,0 +1,30 @@
+task-name: "Object Detection"
+description: "Object detection is a computer vision technique that locates and identifies people, items, or other objects in an image. Object detection has applications in many areas of computer vision, including image retrieval, image annotation, vehicle counting, object tracking, etc."
+img-credit: "YOLO: real-time object detection"
+img-ref: "https://pjreddie.com/darknet/yolo/"
+models:
+    - yolo-v5:
+        model: "YOLOv5"
+        op-name: "object_detection.yolov5"
+        op-link: "https://towhee.io/object-detection/yolov5"
+        pretrained-models:
+            - "object_detection.yolov5()"
+    - faster-rcnn:
+        model: "Faster R-CNN"
+        op-name: "object_detection.detectron2"
+        op-link: "https://towhee.io/object-detection/detectron2"
+        pretrained-models:
+            - "object_detection.detectron2(model_name = 'faster_rcnn_resnet50_c4')"
+            - "object_detection.detectron2(model_name = 'faster_rcnn_resnet50_dc5')"
+            - "object_detection.detectron2(model_name = 'faster_rcnn_resnet50_fpn')"
+            - "object_detection.detectron2(model_name = 'faster_rcnn_resnet101_c4')"
+            - "object_detection.detectron2(model_name = 'faster_rcnn_resnet101_dc5')"
+            - "object_detection.detectron2(model_name = 'faster_rcnn_resnet101_fpn')"
+            - "object_detection.detectron2(model_name = 'faster_rcnn_resnext101')"
+    - retinanet:
+        model: "RetinaNet"
+        op-name: "object_detection.detectron2"
+        op-link: "https://towhee.io/object-detection/detectron2"
+        pretrained-models:
+            - "object_detection.detectron2(model_name = 'retinanet_resnet50')"
+            - "object_detection.detectron2(model_name = 'retinanet_resnet101')"
