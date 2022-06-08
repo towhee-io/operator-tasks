@@ -1,0 +1,11 @@
+task-name: "Face Detection"
+description: "Face Detection is a computer vision technique that identifies human faces in digital images. Compared with Object detection, Face detection algorithm is designed by exploiting the exclusive prior information sastifid in facial image and thus gain better performance. Face detection has many applications which involve facial image analyzing."
+img-credit: "Avengers"
+img-ref: "https://www.liveakhbar.in/2021/12/31/will-there-be-any-more-avengers-movie/"
+models:
+    - retinaface:
+        model: "RetinaFace"
+        op-name: "face_detection.retinaface"
+        op-link: "https://towhee.io/face-detection/retinaface"
+        pretrained-models:
+            - "face_detection.retinaface()"
