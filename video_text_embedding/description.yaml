@@ -1,0 +1,11 @@
+task-name: "Video/Text Embedding"
+description: "Video/Text embedding task comprehens video and language together, and encodes both video's and text's semantics into a same embedding space. With the increasing of videos uploaded online every day, video-text retrieval is becoming an emerging requirement for people to find relevant videos efficiently. Beyond the actual web application, video/text embedding is a fundamental task for multi-modal visual and language understanding."
+img-credit: "Dense-Captioning Events in Videos"
+img-ref: "https://arxiv.org/pdf/1705.00754v1.pdf"
+models:
+    - clip4clip:
+        model: "CLIP4Clip"
+        op-name: "video_text_embedding.clip4clip"
+        op-link: "https://towhee.io/towhee/clip4clip"
+        pretrained-models:
+            - "video_text_embedding.clip4clip(model_name='clip_vit_b32')"
