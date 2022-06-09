@@ -1,0 +1,277 @@
+task-name: "Text Embedding"
+description: "Text embedding represents a sentence or document as an embedding vector. It ensures a representation generated as such captures the semantic meanings of the text. Typical applications are document classifications, topic modeling, and similarity search."
+img-credit: "An illustration of WMD"
+img-ref: "https://arxiv.org/pdf/1811.01713.pdf"
+models:
+    - albert:
+        model: "ALBERT"
+        op-name: "text_embedding.transformers"
+        op-link: "https://towhee.io/text-embedding/transformers"
+        pretrained-models:
+            - "text_embedding.transformers(model_name = 'albert-base-v1')"
+            - "text_embedding.transformers(model_name = 'albert-large-v1')"
+            - "text_embedding.transformers(model_name = 'albert-xlarge-v1')"
+            - "text_embedding.transformers(model_name = 'albert-xxlarge-v1')"
+            - "text_embedding.transformers(model_name = 'albert-base-v2')"
+            - "text_embedding.transformers(model_name = 'albert-large-v2')"
+            - "text_embedding.transformers(model_name = 'albert-xlarge-v2')"
+            - "text_embedding.transformers(model_name = 'albert-xxlarge-v2')"
+    - bart:
+        model: "BART"
+        op-name: "text_embedding.transformers"
+        op-link: "https://towhee.io/text-embedding/transformers"
+        pretrained-models:
+            - "text_embedding.transformers(model_name = 'facebook/bart-large')"
+    - bert:
+        model: "BERT"
+        op-name: "text_embedding.transformers"
+        op-link: "https://towhee.io/text-embedding/transformers"
+        pretrained-models:
+            - "text_embedding.transformers(model_name = 'bert-large-uncased')"
+            - "text_embedding.transformers(model_name = 'bert-base-cased')"
+            - "text_embedding.transformers(model_name = 'bert-large-cased')"
+            - "text_embedding.transformers(model_name = 'bert-base-multilingual-uncased')"
+            - "text_embedding.transformers(model_name = 'bert-base-multilingual-cased')"
+            - "text_embedding.transformers(model_name = 'bert-base-chinese')"
+            - "text_embedding.transformers(model_name = 'bert-base-german-cased')"
+            - "text_embedding.transformers(model_name = 'bert-large-uncased-whole-word-masking')"
+            - "text_embedding.transformers(model_name = 'bert-large-cased-whole-word-masking')"
+            - "text_embedding.transformers(model_name = 'bert-large-uncased-whole-word-masking-finetuned-squad')"
+            - "text_embedding.transformers(model_name = 'bert-large-cased-whole-word-masking-finetuned-squad')"
+            - "text_embedding.transformers(model_name = 'bert-base-cased-finetuned-mrpc')"
+            - "text_embedding.transformers(model_name = 'bert-base-german-dbmdz-cased')"
+            - "text_embedding.transformers(model_name = 'bert-base-german-dbmdz-uncased')"
+            - "text_embedding.transformers(model_name = 'cl-tohoku/bert-base-japanese-whole-word-masking')"
+            - "text_embedding.transformers(model_name = 'cl-tohoku/bert-base-japanese-char')"
+            - "text_embedding.transformers(model_name = 'cl-tohoku/bert-base-japanese-char-whole-word-masking')"
+            - "text_embedding.transformers(model_name = 'TurkuNLP/bert-base-finnish-cased-v1')"
+            - "text_embedding.transformers(model_name = 'TurkuNLP/bert-base-finnish-uncased-v1')"
+            - "text_embedding.transformers(model_name = 'wietsedv/bert-base-dutch-cased')"
+    - bertgeneration:
+        model: "BertGeneration"
+        op-name: "text_embedding.transformers"
+        op-link: "https://towhee.io/text-embedding/transformers"
+        pretrained-models:
+            - "text_embedding.transformers(model_name = 'google/bert_for_seq_generation_L-24_bbc_encoder')"
+    - bigbird:
+        model: "BigBird"
+        op-name: "text_embedding.transformers"
+        op-link: "https://towhee.io/text-embedding/transformers"
+        pretrained-models:
+            - "text_embedding.transformers(model_name = 'google/bigbird-roberta-base')"
+            - "text_embedding.transformers(model_name = 'google/bigbird-roberta-large')"
+            - "text_embedding.transformers(model_name = 'google/bigbird-base-trivia-itc')"
+    - bigbirdpegasus:
+        model: "BigBirdPegasus"
+        op-name: "text_embedding.transformers"
+        op-link: "https://towhee.io/text-embedding/transformers"
+        pretrained-models:
+            - "text_embedding.transformers(model_name = 'google/bigbird-pegasus-large-arxiv')"
+            - "text_embedding.transformers(model_name = 'google/bigbird-pegasus-large-pubmed')"
+            - "text_embedding.transformers(model_name = 'google/bigbird-pegasus-large-bigpatent')"
+    - camembert:
+        model: "CamemBert"
+        op-name: "text_embedding.transformers"
+        op-link: "https://towhee.io/text-embedding/transformers"
+        pretrained-models:
+            - "text_embedding.transformers(model_name = '')"
+    - canine:
+        model: "CANINE"
+        op-name: "text_embedding.transformers"
+        op-link: "https://towhee.io/text-embedding/transformers"
+        pretrained-models:
+            - "text_embedding.transformers(model_name = 'google/canine-s')"
+            - "text_embedding.transformers(model_name = 'google/canine-c')"
+    - convbert:
+        model: "ConvBERT"
+        op-name: "text_embedding.transformers"
+        op-link: "https://towhee.io/text-embedding/transformers"
+        pretrained-models:
+            - "text_embedding.transformers(model_name = 'YituTech/conv-bert-base')"
+            - "text_embedding.transformers(model_name = 'YituTech/conv-bert-medium-small')"
+            - "text_embedding.transformers(model_name = 'YituTech/conv-bert-small')"
+    - ctrl:
+        model: "CTRL"
+        op-name: "text_embedding.transformers"
+        op-link: "https://towhee.io/text-embedding/transformers"
+        pretrained-models:
+            - "text_embedding.transformers(model_name = 'ctrl')"
+    - deberta:
+        model: "DeBERTa"
+        op-name: "text_embedding.transformers"
+        op-link: "https://towhee.io/text-embedding/transformers"
+        pretrained-models:
+            - "text_embedding.transformers(model_name = 'microsoft/deberta-base')"
+            - "text_embedding.transformers(model_name = 'microsoft/deberta-large')"
+            - "text_embedding.transformers(model_name = 'microsoft/deberta-xlarge')"
+            - "text_embedding.transformers(model_name = 'microsoft/deberta-base-mnli')"
+            - "text_embedding.transformers(model_name = 'microsoft/deberta-large-mnli')"
+            - "text_embedding.transformers(model_name = 'microsoft/deberta-xlarge-mnli')"
+    - distilbert:
+        model: "DistilBert"
+        op-name: "text_embedding.transformers"
+        op-link: "https://towhee.io/text-embedding/transformers"
+        pretrained-models:
+            - "text_embedding.transformers(model_name = 'distilbert-base-uncased')"
+            - "text_embedding.transformers(model_name = 'distilbert-base-uncased-distilled-squad')"
+            - "text_embedding.transformers(model_name = 'distilbert-base-cased')"
+            - "text_embedding.transformers(model_name = 'distilbert-base-cased-distilled-squad')"
+            - "text_embedding.transformers(model_name = 'distilbert-base-german-cased')"
+            - "text_embedding.transformers(model_name = 'distilbert-base-multilingual-cased')"
+            - "text_embedding.transformers(model_name = 'distilbert-base-uncased-finetuned-sst-2-english')"
+    - electral:
+        model: "ELECTRA"
+        op-name: "text_embedding.transformers"
+        op-link: "https://towhee.io/text-embedding/transformers"
+        pretrained-models:
+            - "text_embedding.transformers(model_name = 'google/electra-small-generator')"
+            - "text_embedding.transformers(model_name = 'google/electra-base-generator')"
+            - "text_embedding.transformers(model_name = 'google/electra-large-generator')"
+            - "text_embedding.transformers(model_name = 'google/electra-small-discriminator')"
+            - "text_embedding.transformers(model_name = 'google/electra-base-discriminator')"
+            - "text_embedding.transformers(model_name = 'google/electra-large-discriminator')"
+    - flaubert:
+        model: "FlauBERT"
+        op-name: "text_embedding.transformers"
+        op-link: "https://towhee.io/text-embedding/transformers"
+        pretrained-models:
+            - "text_embedding.transformers(model_name = '')"
+    - fnet:
+        model: "FNet"
+        op-name: "text_embedding.transformers"
+        op-link: "https://towhee.io/text-embedding/transformers"
+        pretrained-models:
+            - "text_embedding.transformers(model_name = 'google/fnet-base')"
+            - "text_embedding.transformers(model_name = 'google/fnet-large')"
+    - fsmt:
+        model: "FSMT"
+        op-name: "text_embedding.transformers"
+        op-link: "https://towhee.io/text-embedding/transformers"
+        pretrained-models:
+            - "text_embedding.transformers(model_name = 'facebook/wmt19-ru-en')"
+    - funnel:
+        model: "Funnel"
+        op-name: "text_embedding.transformers"
+        op-link: "https://towhee.io/text-embedding/transformers"
+        pretrained-models:
+            - "text_embedding.transformers(model_name = 'funnel-transformer/small')"
+            - "text_embedding.transformers(model_name = 'funnel-transformer/small-base')"
+            - "text_embedding.transformers(model_name = 'funnel-transformer/medium')"
+            - "text_embedding.transformers(model_name = 'funnel-transformer/medium-base')"
+            - "text_embedding.transformers(model_name = 'funnel-transformer/intermediate')"
+            - "text_embedding.transformers(model_name = 'funnel-transformer/intermediate-base')"
+            - "text_embedding.transformers(model_name = 'funnel-transformer/large')"
+            - "text_embedding.transformers(model_name = 'funnel-transformer/large-base')"
+            - "text_embedding.transformers(model_name = 'funnel-transformer/xlarge-base')"
+            - "text_embedding.transformers(model_name = 'funnel-transformer/xlarge')"
+    - gpt:
+        model: "GPT"
+        op-name: "text_embedding.transformers"
+        op-link: "https://towhee.io/text-embedding/transformers"
+        pretrained-models:
+            - "text_embedding.transformers(model_name = 'openai-gpt')"
+            - "text_embedding.transformers(model_name = 'gpt2')"
+            - "text_embedding.transformers(model_name = 'gpt2-medium')"
+            - "text_embedding.transformers(model_name = 'gpt2-large')"
+            - "text_embedding.transformers(model_name = 'gpt2-xl')"
+            - "text_embedding.transformers(model_name = 'distilgpt2')"
+            - "text_embedding.transformers(model_name = 'EleutherAI/gpt-neo-1.3B')"
+            - "text_embedding.transformers(model_name = 'EleutherAI/gpt-j-6B')"
+    - ibert:
+        model: "I-BERT"
+        op-name: "text_embedding.transformers"
+        op-link: "https://towhee.io/text-embedding/transformers"
+        pretrained-models:
+            - "text_embedding.transformers(model_name = 'kssteven/ibert-roberta-base')"
+    - led:
+        model: "LED"
+        op-name: "text_embedding.transformers"
+        op-link: "https://towhee.io/text-embedding/transformers"
+        pretrained-models:
+            - "text_embedding.transformers(model_name = 'allenai/led-base-16384')"
+    - mobilebert:
+        model: "MobileBERT"
+        op-name: "text_embedding.transformers"
+        op-link: "https://towhee.io/text-embedding/transformers"
+        pretrained-models:
+            - "text_embedding.transformers(model_name = 'google/mobilebert-uncased')"
+    - mpnet:
+        model: "MPNet"
+        op-name: "text_embedding.transformers"
+        op-link: "https://towhee.io/text-embedding/transformers"
+        pretrained-models:
+            - "text_embedding.transformers(model_name = 'microsoft/mpnet-base')"
+    - nystromformer:
+        model: "Nystromformer"
+        op-name: "text_embedding.transformers"
+        op-link: "https://towhee.io/text-embedding/transformers"
+        pretrained-models:
+            - "text_embedding.transformers(model_name = 'uw-madison/nystromformer-512')"
+    - reformer:
+        model: "Reformer"
+        op-name: "text_embedding.transformers"
+        op-link: "https://towhee.io/text-embedding/transformers"
+        pretrained-models:
+            - "text_embedding.transformers(model_name = 'google/reformer-crime-and-punishment')"
+    - splinter:
+        model: "Splinter"
+        op-name: "text_embedding.transformers"
+        op-link: "https://towhee.io/text-embedding/transformers"
+        pretrained-models:
+            - "text_embedding.transformers(model_name = 'tau/splinter-base')"
+            - "text_embedding.transformers(model_name = 'tau/splinter-base-qass')"
+            - "text_embedding.transformers(model_name = 'tau/splinter-large')"
+            - "text_embedding.transformers(model_name = 'tau/splinter-large-qass')"
+    - squeezebert:
+        model: "SqueezeBERT"
+        op-name: "text_embedding.transformers"
+        op-link: "https://towhee.io/text-embedding/transformers"
+        pretrained-models:
+            - "text_embedding.transformers(model_name = 'squeezebert/squeezebert-uncased')"
+            - "text_embedding.transformers(model_name = 'squeezebert/squeezebert-mnli')"
+            - "text_embedding.transformers(model_name = 'squeezebert/squeezebert-mnli-headless')"
+    - transfoxl:
+        model: "TransfoXL"
+        op-name: "text_embedding.transformers"
+        op-link: "https://towhee.io/text-embedding/transformers"
+        pretrained-models:
+            - "text_embedding.transformers(model_name = 'transfo-xl-wt103')"
+    - xlm:
+        model: "XLM"
+        op-name: "text_embedding.transformers"
+        op-link: "https://towhee.io/text-embedding/transformers"
+        pretrained-models:
+            - "text_embedding.transformers(model_name = 'xlm-mlm-en-2048')"
+            - "text_embedding.transformers(model_name = 'xlm-mlm-ende-1024')"
+            - "text_embedding.transformers(model_name = 'xlm-mlm-enfr-1024')"
+            - "text_embedding.transformers(model_name = 'xlm-mlm-enro-1024')"
+            - "text_embedding.transformers(model_name = 'xlm-mlm-tlm-xnli15-1024')"
+            - "text_embedding.transformers(model_name = 'xlm-mlm-xnli15-1024')"
+            - "text_embedding.transformers(model_name = 'xlm-clm-enfr-1024')"
+            - "text_embedding.transformers(model_name = 'xlm-clm-ende-1024')"
+            - "text_embedding.transformers(model_name = 'xlm-mlm-17-1280')"
+            - "text_embedding.transformers(model_name = 'xlm-mlm-100-1280')"
+    - xlmroberta:
+        model: "XLMRoberta"
+        op-name: "text_embedding.transformers"
+        op-link: "https://towhee.io/text-embedding/transformers"
+        pretrained-models:
+            - "text_embedding.transformers(model_name = 'xlm-roberta-base')"
+            - "text_embedding.transformers(model_name = 'xlm-roberta-large')"
+            - "text_embedding.transformers(model_name = 'xlm-roberta-large-finetuned-conll02-dutch')"
+            - "text_embedding.transformers(model_name = 'xlm-roberta-large-finetuned-conll02-spanish')"
+            - "text_embedding.transformers(model_name = 'xlm-roberta-large-finetuned-conll03-english')"
+            - "text_embedding.transformers(model_name = 'xlm-roberta-large-finetuned-conll03-german')"
+    - xlnet:
+        model: "XLNet"
+        op-name: "text_embedding.transformers"
+        op-link: "https://towhee.io/text-embedding/transformers"
+        pretrained-models:
+            - "text_embedding.transformers(model_name = 'xlnet-base-cased')"
+            - "text_embedding.transformers(model_name = 'xlnet-large-cased')"
+    - yoso:
+        model: "YOSO"
+        op-name: "text_embedding.transformers"
+        op-link: "https://towhee.io/text-embedding/transformers"
+        pretrained-models:
+            - "text_embedding.transformers(model_name = 'uw-madison/yoso-4096')"
