@@ -74,7 +74,9 @@ models:
         op-name: "text_embedding.transformers"
         op-link: "https://towhee.io/text-embedding/transformers"
         pretrained-models:
-            - "text_embedding.transformers(model_name = '')"
+            - "text_embedding.transformers(model_name = 'camembert-base')"
+            - "text_embedding.transformers(model_name = 'Musixmatch/umberto-commoncrawl-cased-v1')"
+            - "text_embedding.transformers(model_name = 'Musixmatch/umberto-wikipedia-uncased-v1')"
     - canine:
         model: "CANINE"
         op-name: "text_embedding.transformers"
@@ -107,6 +109,10 @@ models:
             - "text_embedding.transformers(model_name = 'microsoft/deberta-base-mnli')"
             - "text_embedding.transformers(model_name = 'microsoft/deberta-large-mnli')"
             - "text_embedding.transformers(model_name = 'microsoft/deberta-xlarge-mnli')"
+            - "text_embedding.transformers(model_name = 'microsoft/deberta-v2-xlarge')"
+            - "text_embedding.transformers(model_name = 'microsoft/deberta-v2-xxlarge')"
+            - "text_embedding.transformers(model_name = 'microsoft/deberta-v2-xlarge-mnli')"
+            - "text_embedding.transformers(model_name = 'microsoft/deberta-v2-xxlarge-mnli')"
     - distilbert:
         model: "DistilBert"
         op-name: "text_embedding.transformers"
@@ -135,7 +141,10 @@ models:
         op-name: "text_embedding.transformers"
         op-link: "https://towhee.io/text-embedding/transformers"
         pretrained-models:
-            - "text_embedding.transformers(model_name = '')"
+            - "text_embedding.transformers(model_name = 'flaubert/flaubert_small_cased')"
+            - "text_embedding.transformers(model_name = 'flaubert/flaubert_base_uncased')"
+            - "text_embedding.transformers(model_name = 'flaubert/flaubert_base_cased')"
+            - "text_embedding.transformers(model_name = 'flaubert/flaubert_large_cased')"
     - fnet:
         model: "FNet"
         op-name: "text_embedding.transformers"

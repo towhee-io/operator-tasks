@@ -1,10 +1,12 @@
 **Parameters:**
 
-**data:** *str or List[towhee.types.Image] (Image a sub-class of numpy.ndarray)*
+***text***: *str*
 
-Input text or video frames.
+​	The text in string.
 
-**Returns:** *numpy.ndarray*
 
-The embedding vector.
+**Returns**: *numpy.ndarray*
+
+​	The text embedding extracted by model.
+
 
