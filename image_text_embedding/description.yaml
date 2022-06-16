@@ -12,10 +12,18 @@ models:
             - "image_text_embedding.clip(model_name='clip_resnet_r101')"
             - "image_text_embedding.clip(model_name='clip_vit_b16')"
             - "image_text_embedding.clip(model_name='clip_vit_b32')"
+    - blip:
+        model: "BLIP"
+        op-name: "image_text_embedding.blip"
+        op-link: "https://towhee.io/image-text-embedding/blip"
+        pretrained-models:
+            - "image_text_embedding.blip(model_name='blip_base')"
     - lightningdot:
         model: "LightningDOT"
         op-name: "image_text_embedding.lightningdot"
         op-link: "https://towhee.io/image-text-embedding/lightningdot"
         pretrained-models:
-            - "image_text_embedding.lightningdot()"
+            - "image_text_embedding.lightningdot(model_name='lightningdot_base')"
+            - "image_text_embedding.lightningdot(model_name='lightningdot_coco_ft')"
+            - "image_text_embedding.lightningdot(model_name='lightningdot_flickr_ft')"
      
