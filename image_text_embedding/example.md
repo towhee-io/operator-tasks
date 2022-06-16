@@ -3,7 +3,7 @@ import towhee
 
 towhee.glob['path']('./towhee.jpg') \
       .image_decode['path', 'img']() \
-      .image_embedding.timm['img', 'vec'](model_name='resnet50') \
+      .image_text_embedding.clip['img', 'vec'](model_name='clip_vit_b32', modality='image') \
       .select['img', 'vec']() \
       .show()
 ```
