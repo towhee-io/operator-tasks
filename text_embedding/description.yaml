@@ -284,3 +284,32 @@ models:
         op-link: "https://towhee.io/text-embedding/transformers"
         pretrained-models:
             - "text_embedding.transformers(model_name = 'uw-madison/yoso-4096')"
+    - dpr:
+        model: "DPR"
+        op-name: "text_embedding.dpr"
+        op-link: "https://towhee.io/text-embedding/dpr"
+        pretrained-models:
+            - "text_embedding.dpr(model_name='facebook/dpr-ctx_encoder-single-nq-base')"
+            - "text_embedding.dpr(model_name='facebook/dpr-ctx_encoder-multiset-base')"
+    - longformer:
+        model: "Longformer"
+        op-name: "text_embedding.longformer"
+        op-link: "https://towhee.io/text-embedding/longformer"
+        pretrained-models:
+            - "text_embedding.longformer(model_name='allenai/longformer-base-4096')"
+            - "text_embedding.longformer(model_name='allenai/longformer-large-4096')"
+            - "text_embedding.longformer(model_name='allenai/longformer-large-4096-finetuned-triviaqa')"
+            - "text_embedding.longformer(model_name='allenai/longformer-base-4096-extra.pos.embd.only')"
+            - "text_embedding.longformer(model_name='allenai/longformer-large-4096-extra.pos.embd.only')"
+    - realm:
+        model: "Realm"
+        op-name: "text_embedding.realm"
+        op-link: "https://towhee.io/text-embedding/realm"
+        pretrained-models:
+            - "text_embedding.realm('google/realm-cc-news-pretrained-embedder')"
+    - xlm-prophetnet:
+        model: "XLM-ProphetNet"
+        op-name: "text_embedding.xlm_prophetnet"
+        op-link: "https://towhee.io/text-embedding/xlm-prophetnet"
+        pretrained-models:
+            - "text_embedding.xlm_prophetnet('microsoft/xprophetnet-large-wiki100-cased')"
