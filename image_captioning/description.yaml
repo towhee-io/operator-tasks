@@ -1,0 +1,11 @@
+task-name: "Image Captioning"
+description: "This is a task that generates the caption describing the content of a given image. It is a fundamental task type that can get texual information from images."
+img-credit: "Reflective Decoding Network for Image Captioning, ICCV'19"
+img-ref: "https://openaccess.thecvf.com/content_ICCV_2019/papers/Ke_Reflective_Decoding_Network_for_Image_Captioning_ICCV_2019_paper.pdf"
+models:
+    - blip:
+        model: "BLIP"
+        op-name: "image_captioning.blip"
+        op-link: "https://towhee.io/image-captioning/blip"
+        pretrained-models:
+            - "image_captioning.blip(model_name='blip_base')"
