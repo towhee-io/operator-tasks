@@ -2,3 +2,4 @@ field-name: "Multimodal"
 tasks:
   - image_text_embedding
   - video_text_embedding
+  - image_captioning

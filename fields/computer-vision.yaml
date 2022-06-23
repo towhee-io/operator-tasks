@@ -6,6 +6,5 @@ tasks:
   - face_detection
   - face_landmark_detection
   - action_classification
-  - image_captioning
   - image_decode
   - image_crop
