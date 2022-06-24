@@ -65,3 +65,20 @@ models:
               - "action_classification.video_swin_transformer(model_name='swin_s_k400_1k')"
               - "action_classification.video_swin_transformer(model_name='swin_b_k400_1k')"
               - "action_classification.video_swin_transformer(model_name='swin_b_k400_22k')"
+    - tsm:
+        model: "TSM"
+        op-name: "action_classification.tsm"
+        op-link: "https://towhee.io/action-classification/tsm"
+        pretrained-models:
+            - "action_classification.tsm(model_name='tsm_k400_r50_seg8')"
+            - "action_classification.tsm(model_name='tsm_k400_r50_seg16')"
+    - omnivore:
+        model: "Omnivore"
+        op-name: "action_classification.omnivore"
+        op-link: "https://towhee.io/action-classification/omnivore"
+        pretrained-models:
+            - "action_classification.omnivore(model_name='omnivore_swinT')"
+            - "action_classification.omnivore(model_name='omnivore_swinS')"
+            - "action_classification.omnivore(model_name='omnivore_swinB')"
+            - "action_classification.omnivore(model_name='omnivore_swinB_in21k')"
+            - "action_classification.omnivore(model_name='omnivore_swinL_in21k')"
