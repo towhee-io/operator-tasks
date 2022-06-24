@@ -8,23 +8,23 @@ models:
         op-name: "audio_embedding.data2vec_audio"
         op-link: "https://towhee.io/audio-embedding/data2vec-audio"
         pretrained-models:
-            - "image_embedding.data2vec_audio(model_name='facebook/data2vec-audio-base')"
-            - "image_embedding.data2vec_audio(model_name='facebook/data2vec-audio-base-10m')"
-            - "image_embedding.data2vec_audio(model_name='facebook/data2vec-audio-base-100h')"
-            - "image_embedding.data2vec_audio(model_name='facebook/data2vec-audio-base-960h')"
-            - "image_embedding.data2vec_audio(model_name='facebook/data2vec-audio-large')"
-            - "image_embedding.data2vec_audio(model_name='facebook/data2vec-audio-large-10m')"
-            - "image_embedding.data2vec_audio(model_name='facebook/data2vec-audio-large-100h')"
-            - "image_embedding.data2vec_audio(model_name='facebook/data2vec-audio-large-960h')"
+            - "audio_embedding.data2vec_audio(model_name='facebook/data2vec-audio-base')"
+            - "audio_embedding.data2vec_audio(model_name='facebook/data2vec-audio-base-10m')"
+            - "audio_embedding.data2vec_audio(model_name='facebook/data2vec-audio-base-100h')"
+            - "audio_embedding.data2vec_audio(model_name='facebook/data2vec-audio-base-960h')"
+            - "audio_embedding.data2vec_audio(model_name='facebook/data2vec-audio-large')"
+            - "audio_embedding.data2vec_audio(model_name='facebook/data2vec-audio-large-10m')"
+            - "audio_embedding.data2vec_audio(model_name='facebook/data2vec-audio-large-100h')"
+            - "audio_embedding.data2vec_audio(model_name='facebook/data2vec-audio-large-960h')"
     - vggish:
         model: "VGGish"
         op-name: "audio_embedding.vggish"
         op-link: "https://towhee.io/audio-embedding/vggish"
         pretrained-models:
-            - "image_embedding.vggish()"
+            - "audio_embedding.vggish()"
     - clmr:
           model: "CLMR"
           op-name: "audio_embedding.clmr"
           op-link: "https://towhee.io/audio-embedding/clmr"
           pretrained-models:
-              - "image_embedding.clmr()"
+              - "audio_embedding.clmr()"
