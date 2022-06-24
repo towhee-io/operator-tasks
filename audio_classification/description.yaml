@@ -1,0 +1,11 @@
+task-name: "Audio Classification"
+description: "An Audio classification operator applies a pretrained classification model to audio data. It classifies audio data into some predefined categories. It also supports feature extraction to generate an audio embedding given audio data."
+img-credit: "Low-Complexity Acoustic Scene Classification with Multiple Devices"
+img-ref: "https://dcase.community/challenge2021/task-acoustic-scene-classification"
+models:
+    - panns:
+        model: "PANNS"
+        op-name: "audio_classification.panns"
+        op-link: "https://towhee.io/audio-classification/panns"
+        pretrained-models:
+            - "audio_classification.panns()"

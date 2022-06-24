@@ -1,0 +1,4 @@
+field-name: "Audio"
+tasks:
+  - audio_embedding
+  - audio_classification
