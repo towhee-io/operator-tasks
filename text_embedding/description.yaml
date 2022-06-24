@@ -313,3 +313,10 @@ models:
         op-link: "https://towhee.io/text-embedding/xlm-prophetnet"
         pretrained-models:
             - "text_embedding.xlm_prophetnet('microsoft/xprophetnet-large-wiki100-cased')"
+    - data2vec:
+        model: "data2vec"
+        op-name: "text_embedding.data2vec"
+        op-link: "https://towhee.io/text-embedding/data2vec"
+        pretrained-models:
+            - "text_embedding.data2vec()"
+ 

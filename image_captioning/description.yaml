@@ -9,3 +9,10 @@ models:
         op-link: "https://towhee.io/image-captioning/blip"
         pretrained-models:
             - "image_captioning.blip(model_name='blip_base')"
+    - clipcap:
+        model: "ClipCap"
+        op-name: "image_captioning.clipcap"
+        op-link: "https://towhee.io/image-captioning/clipcap"
+        pretrained-models:
+            - "image_captioning.clipcap(model_name='clipcap_coco')"
+            - "image_captioning.clipcap(model_name='clipcap_conceptual')"

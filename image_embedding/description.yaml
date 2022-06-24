@@ -935,3 +935,11 @@ models:
         op-link: "https://towhee.io/image-embedding/timm"
         pretrained-models:
             - "image_embedding.timm(model_name = 'spnasnet_100')"
+    - data2vec:
+        model: "data2vec"
+        op-name: "image_embedding.data2vec"
+        op-link: "https://towhee.io/image-embedding/data2vec"
+        pretrained-models:
+            - "image_embedding.data2vec(model_name = 'facebook/data2vec-vision-base-ft1k')"
+            - "image_embedding.data2vec(model_name = 'facebook/data2vec-vision-large-ft1k')"
+

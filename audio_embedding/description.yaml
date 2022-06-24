@@ -28,3 +28,15 @@ models:
           op-link: "https://towhee.io/audio-embedding/clmr"
           pretrained-models:
               - "audio_embedding.clmr()"
+    - data2vec:
+          model: "data2vec"
+          op-name: "audio_embedding.data2vec"
+          op-link: "https://towhee.io/audio-embedding/data2vec"
+          pretrained-models:
+              - "audio_embedding.data2vec('facebook/data2vec-audio-base-960h')"
+              - "audio_embedding.data2vec('facebook/data2vec-audio-large-960h')"
+              - "audio_embedding.data2vec('facebook/data2vec-audio-base-100h')"
+              - "audio_embedding.data2vec('facebook/data2vec-audio-base-10m')"
+              - "audio_embedding.data2vec('facebook/data2vec-audio-large')"
+              - "audio_embedding.data2vec('facebook/data2vec-audio-large-100h')"
+              - "audio_embedding.data2vec('facebook/data2vec-audio-large-10m')"
