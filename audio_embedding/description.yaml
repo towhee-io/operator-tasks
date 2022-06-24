@@ -1,0 +1,30 @@
+task-name: "Audio Embedding"
+description: "Audio embedding is a task that encodes audio's semantics into a set of real vectors. It is a fundamental task type that can be used in a variety of applications, including but not limited to reverse audio search and audio deduplication."
+img-credit: "Audio-Based Aircraft Detection System for Safe RPAS BVLOS Operations"
+img-ref: "https://www.mdpi.com/2079-9292/9/12/2076/htm"
+models:
+    - data2vec-audio:
+        model: "Data2Vec-Audio"
+        op-name: "audio_embedding.data2vec_audio"
+        op-link: "https://towhee.io/audio-embedding/data2vec-audio"
+        pretrained-models:
+            - "image_embedding.data2vec_audio(model_name='facebook/data2vec-audio-base')"
+            - "image_embedding.data2vec_audio(model_name='facebook/data2vec-audio-base-10m')"
+            - "image_embedding.data2vec_audio(model_name='facebook/data2vec-audio-base-100h')"
+            - "image_embedding.data2vec_audio(model_name='facebook/data2vec-audio-base-960h')"
+            - "image_embedding.data2vec_audio(model_name='facebook/data2vec-audio-large')"
+            - "image_embedding.data2vec_audio(model_name='facebook/data2vec-audio-large-10m')"
+            - "image_embedding.data2vec_audio(model_name='facebook/data2vec-audio-large-100h')"
+            - "image_embedding.data2vec_audio(model_name='facebook/data2vec-audio-large-960h')"
+    - vggish:
+        model: "VGGish"
+        op-name: "audio_embedding.vggish"
+        op-link: "https://towhee.io/audio-embedding/vggish"
+        pretrained-models:
+            - "image_embedding.vggish()"
+    - clmr:
+          model: "CLMR"
+          op-name: "audio_embedding.clmr"
+          op-link: "https://towhee.io/audio-embedding/clmr"
+          pretrained-models:
+              - "image_embedding.clmr()"
