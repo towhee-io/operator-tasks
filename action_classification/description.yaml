@@ -56,3 +56,20 @@ models:
         pretrained-models:
             - "action_classification.pytorchvideo(model_name='mvit_base_16x4')"
             - "action_classification.pytorchvideo(model_name='mvit_base_32x3')"
+    - tsm:
+        model: "TSM"
+        op-name: "action_classification.tsm"
+        op-link: "https://towhee.io/action-classification/tsm"
+        pretrained-models:
+            - "action_classification.tsm(model_name='tsm_k400_r50_seg8')"
+            - "action_classification.tsm(model_name='tsm_k400_r50_seg16')"
+    - omnivore:
+        model: "Omnivore"
+        op-name: "action_classification.omnivore"
+        op-link: "https://towhee.io/action-classification/omnivore"
+        pretrained-models:
+            - "action_classification.omnivore(model_name='omnivore_swinT')"
+            - "action_classification.omnivore(model_name='omnivore_swinS')"
+            - "action_classification.omnivore(model_name='omnivore_swinB')"
+            - "action_classification.omnivore(model_name='omnivore_swinB_in21k')"
+            - "action_classification.omnivore(model_name='omnivore_swinL_in21k')"
