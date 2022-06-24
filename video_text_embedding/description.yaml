@@ -9,3 +9,9 @@ models:
         op-link: "https://towhee.io/towhee/clip4clip"
         pretrained-models:
             - "video_text_embedding.clip4clip(model_name='clip_vit_b32')"
+    - frozen_in_time:
+          model: "FrozenInTime"
+          op-name: "video_text_embedding.frozen_in_time"
+          op-link: "https://towhee.io/video-text-embedding/frozen-in-time"
+          pretrained-models:
+              - "video_text_embedding.frozen_in_time(model_name='frozen_in_time_base_16_244')"

@@ -56,3 +56,12 @@ models:
         pretrained-models:
             - "action_classification.pytorchvideo(model_name='mvit_base_16x4')"
             - "action_classification.pytorchvideo(model_name='mvit_base_32x3')"
+    - video_swin_transformer:
+          model: "VideoSwinTransformer"
+          op-name: "action_classification.video_swin_transformer"
+          op-link: "https://towhee.io/action-classification/video-swin-transformer"
+          pretrained-models:
+              - "action_classification.video_swin_transformer(model_name='swin_t_k400_1k')"
+              - "action_classification.video_swin_transformer(model_name='swin_s_k400_1k')"
+              - "action_classification.video_swin_transformer(model_name='swin_b_k400_1k')"
+              - "action_classification.video_swin_transformer(model_name='swin_b_k400_22k')"
