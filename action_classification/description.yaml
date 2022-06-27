@@ -82,3 +82,23 @@ models:
             - "action_classification.omnivore(model_name='omnivore_swinB')"
             - "action_classification.omnivore(model_name='omnivore_swinB_in21k')"
             - "action_classification.omnivore(model_name='omnivore_swinL_in21k')"
+     - uniformer:
+        model: "Uniformer"
+        op-name: "action_classification.uniformer"
+        op-link: "https://towhee.io/action-classification/uniformer"
+        pretrained-models:
+            - "action_classification.uniformer(model_name='uniformer_k400_s8')"
+            - "action_classification.uniformer(model_name='uniformer_k400_s16')"
+            - "action_classification.uniformer(model_name='uniformer_k400_b8')"
+            - "action_classification.uniformer(model_name='uniformer_k400_b16')"
+    - movinet:
+        model: "MoViNet"
+        op-name: "action_classification.movinet"
+        op-link: "https://towhee.io/action-classification/movinet"
+        pretrained-models:
+            - "action_classification.movinet(model_name='movineta0')"
+            - "action_classification.movinet(model_name='movineta1')"
+            - "action_classification.movinet(model_name='movineta2')"
+            - "action_classification.movinet(model_name='movineta3')"
+            - "action_classification.movinet(model_name='movineta4')"
+            - "action_classification.movinet(model_name='movineta5')"
