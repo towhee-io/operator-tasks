@@ -33,3 +33,10 @@ models:
           op-link: "https://towhee.io/video-text-embedding/collaborative-experts"
           pretrained-models:
               - "video_text_embedding.collaborative_experts()"
+    - bridge_former:
+        model: "BridgeFormer"
+        op-name: "video_text_embedding.bridge_former"
+        op-link: "https://towhee.io/video-text-embedding/bridge-former"
+        pretrained-models:
+            - "video_text_embedding.bridge_former(model_name='frozen_model')"
+            - "video_text_embedding.bridge_former(model_name='clip_initialized_model')"
