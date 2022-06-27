@@ -10,26 +10,26 @@ models:
         pretrained-models:
             - "video_text_embedding.clip4clip(model_name='clip_vit_b32')"
     - frozen_in_time:
-          model: "FrozenInTime"
-          op-name: "video_text_embedding.frozen_in_time"
-          op-link: "https://towhee.io/video-text-embedding/frozen-in-time"
-          pretrained-models:
-              - "video_text_embedding.frozen_in_time(model_name='frozen_in_time_base_16_244')"
+        model: "FrozenInTime"
+        op-name: "video_text_embedding.frozen_in_time"
+        op-link: "https://towhee.io/video-text-embedding/frozen-in-time"
+        pretrained-models:
+            - "video_text_embedding.frozen_in_time(model_name='frozen_in_time_base_16_244')"
     - drl:
-          model: "DRL"
-          op-name: "video_text_embedding.drl"
-          op-link: "https://towhee.io/video-text-embedding/drl"
-          pretrained-models:
-              - "video_text_embedding.drl(base_encoder='clip_vit_b32')"
+        model: "DRL"
+        op-name: "video_text_embedding.drl"
+        op-link: "https://towhee.io/video-text-embedding/drl"
+        pretrained-models:
+            - "video_text_embedding.drl(base_encoder='clip_vit_b32')"
     - mdmmt:
-          model: "MDMMT"
-          op-name: "video_text_embedding.mdmmt"
-          op-link: "https://towhee.io/video-text-embedding/mdmmt"
-          pretrained-models:
-              - "video_text_embedding.mdmmt()"
+        model: "MDMMT"
+        op-name: "video_text_embedding.mdmmt"
+        op-link: "https://towhee.io/video-text-embedding/mdmmt"
+        pretrained-models:
+            - "video_text_embedding.mdmmt()"
     - collaborative_experts:
-          model: "CollaborativeExperts"
-          op-name: "video_text_embedding.collaborative_experts"
-          op-link: "https://towhee.io/video-text-embedding/collaborative-experts"
-          pretrained-models:
-              - "video_text_embedding.collaborative_experts()"
+        model: "CollaborativeExperts"
+        op-name: "video_text_embedding.collaborative_experts"
+        op-link: "https://towhee.io/video-text-embedding/collaborative-experts"
+        pretrained-models:
+            - "video_text_embedding.collaborative_experts()"
