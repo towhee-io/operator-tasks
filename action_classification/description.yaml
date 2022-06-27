@@ -82,7 +82,7 @@ models:
             - "action_classification.omnivore(model_name='omnivore_swinB')"
             - "action_classification.omnivore(model_name='omnivore_swinB_in21k')"
             - "action_classification.omnivore(model_name='omnivore_swinL_in21k')"
-     - uniformer:
+    - uniformer:
         model: "Uniformer"
         op-name: "action_classification.uniformer"
         op-link: "https://towhee.io/action-classification/uniformer"
