@@ -4,18 +4,18 @@ img-credit: "Audio-Based Aircraft Detection System for Safe RPAS BVLOS Operation
 img-ref: "https://www.mdpi.com/2079-9292/9/12/2076/htm"
 models:
     - data2vec:
-          model: "data2vec"
-          op-name: "audio_embedding.data2vec"
-          op-link: "https://towhee.io/audio-embedding/data2vec"
-          pretrained-models:
-              - "audio_embedding.data2vec('facebook/data2vec-audio-base-960h')"
-              - "audio_embedding.data2vec('facebook/data2vec-audio-large-960h')"
-              - "audio_embedding.data2vec('facebook/data2vec-audio-base')"
-              - "audio_embedding.data2vec('facebook/data2vec-audio-base-100h')"
-              - "audio_embedding.data2vec('facebook/data2vec-audio-base-10m')"
-              - "audio_embedding.data2vec('facebook/data2vec-audio-large')"
-              - "audio_embedding.data2vec('facebook/data2vec-audio-large-100h')"
-              - "audio_embedding.data2vec('facebook/data2vec-audio-large-10m')"
+        model: "data2vec"
+        op-name: "audio_embedding.data2vec"
+        op-link: "https://towhee.io/audio-embedding/data2vec"
+        pretrained-models:
+            - "audio_embedding.data2vec(model_name = 'facebook/data2vec-audio-base-960h')"
+            - "audio_embedding.data2vec(model_name = 'facebook/data2vec-audio-large-960h')"
+            - "audio_embedding.data2vec(model_name = 'facebook/data2vec-audio-base')"
+            - "audio_embedding.data2vec(model_name = 'facebook/data2vec-audio-base-100h')"
+            - "audio_embedding.data2vec(model_name = 'facebook/data2vec-audio-base-10m')"
+            - "audio_embedding.data2vec(model_name = 'facebook/data2vec-audio-large')"
+            - "audio_embedding.data2vec(model_name = 'facebook/data2vec-audio-large-100h')"
+            - "audio_embedding.data2vec(model_name = 'facebook/data2vec-audio-large-10m')"
     - vggish:
         model: "VGGish"
         op-name: "audio_embedding.vggish"
@@ -23,8 +23,8 @@ models:
         pretrained-models:
             - "audio_embedding.vggish()"
     - clmr:
-          model: "CLMR"
-          op-name: "audio_embedding.clmr"
-          op-link: "https://towhee.io/audio-embedding/clmr"
-          pretrained-models:
-              - "audio_embedding.clmr()"
+        model: "CLMR"
+        op-name: "audio_embedding.clmr"
+        op-link: "https://towhee.io/audio-embedding/clmr"
+        pretrained-models:
+            - "audio_embedding.clmr()"
