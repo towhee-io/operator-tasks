@@ -3,6 +3,12 @@ description: "Text embedding represents a sentence or document as an embedding v
 img-credit: "An illustration of WMD"
 img-ref: "https://arxiv.org/pdf/1811.01713.pdf"
 models:
+    - data2vec:
+        model: "data2vec"
+        op-name: "text_embedding.data2vec"
+        op-link: "https://towhee.io/text-embedding/data2vec"
+        pretrained-models:
+            - "text_embedding.data2vec()"
     - albert:
         model: "ALBERT"
         op-name: "text_embedding.transformers"
@@ -313,10 +319,3 @@ models:
         op-link: "https://towhee.io/text-embedding/xlm-prophetnet"
         pretrained-models:
             - "text_embedding.xlm_prophetnet('microsoft/xprophetnet-large-wiki100-cased')"
-    - data2vec:
-        model: "data2vec"
-        op-name: "text_embedding.data2vec"
-        op-link: "https://towhee.io/text-embedding/data2vec"
-        pretrained-models:
-            - "text_embedding.data2vec()"
- 
