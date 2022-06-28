@@ -3,6 +3,13 @@ description: "Video/Text embedding task comprehens video and language together, 
 img-credit: "Dense-Captioning Events in Videos"
 img-ref: "https://arxiv.org/pdf/1705.00754v1.pdf"
 models:
+    - bridge_former:
+        model: "BridgeFormer"
+        op-name: "video_text_embedding.bridge_former"
+        op-link: "https://towhee.io/video-text-embedding/bridge-former"
+        pretrained-models:
+            - "video_text_embedding.bridge_former(model_name='frozen_model')"
+            - "video_text_embedding.bridge_former(model_name='clip_initialized_model')"
     - clip4clip:
         model: "CLIP4Clip"
         op-name: "video_text_embedding.clip4clip"
