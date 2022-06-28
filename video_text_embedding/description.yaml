@@ -13,7 +13,7 @@ models:
     - clip4clip:
         model: "CLIP4Clip"
         op-name: "video_text_embedding.clip4clip"
-        op-link: "https://towhee.io/towhee/clip4clip"
+        op-link: "https://towhee.io/video-text-embedding/clip4clip"
         pretrained-models:
             - "video_text_embedding.clip4clip(model_name='clip_vit_b32')"
     - frozen_in_time:
