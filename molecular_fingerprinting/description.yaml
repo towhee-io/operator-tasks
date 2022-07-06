@@ -2,7 +2,7 @@ task-name: "Molecular Fingerprinting"
 description: "A Molecular Fingerprinting Operator encodes a Simplified Molecular Input Line Entry Specification (SMILES) as a fingerprint. The fingerprint can represent elements, atom pairs, or functional groups, etc., and are often used for substructure searches and similarity searches in drug discovery."
 img-credit: "Molecular fingerprint"
 img-ref: "https://www.semanticscholar.org/paper/Molecular-fingerprint-similarity-search-in-virtual-Cereto-Massagu%C3%A9-Ojeda/e54398c62c5b3d3b587818a98828bc78d29c57be"
-models:
+operator-implementations:
     - default:
         implementation: "Default"
         op-name: "molecular_fingerprinting"
