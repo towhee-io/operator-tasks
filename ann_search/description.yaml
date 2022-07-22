@@ -1,0 +1,13 @@
+task-name: "ANN Search"
+description: "The ANN search operator is used to find the closest (or most similar) point to a given point in a given set, i.e. find similar embeddings."
+img-credit: "ANN(Approximate Nearest Neighbor) Search Algorithm"
+img-ref: "https://www.researchgate.net/publication/328484020_Fast_Feature_Matching_Based_on_r-Nearest_k-Means_Searching"
+operator-implementations:
+    - faiss:
+        implementation: "Faiss"
+        op-name: "ann_search.faiss"
+        op-link: "https://towhee.io/ann-search/faiss"
+    - milvus:
+        implementation: "Milvus"
+        op-name: "ann_search.milvus"
+        op-link: "https://towhee.io/ann-search/milvus"

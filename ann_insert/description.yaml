@@ -1,0 +1,9 @@
+task-name: "ANN Insert"
+description: "The ANN Insert Operator is used to insert embeddings and create ANN indexes for fast similarity searches."
+img-credit: "Insert Vectors and Build ANN(Approximate Nearest Neighbor) Index"
+img-ref: "https://engineering.fb.com/2017/03/29/data-infrastructure/faiss-a-library-for-efficient-similarity-search/"
+operator-implementations:
+    - milvus:
+        implementation: "Milvus"
+        op-name: "ann_insert.milvus"
+        op-link: "https://towhee.io/ann-insert/milvus"
