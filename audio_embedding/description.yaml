@@ -3,6 +3,12 @@ description: "Audio embedding is a task that encodes audio's semantics into a se
 img-credit: "Audio-Based Aircraft Detection System for Safe RPAS BVLOS Operations"
 img-ref: "https://www.mdpi.com/2079-9292/9/12/2076/htm"
 models:
+    - nnfp:
+        model: "NNFp"
+        op-name: "audio_embedding.nnfp"
+        op-link: "https://towhee.io/audio-embedding/nnfp"
+        pretrained-models:
+            - "audio_embedding.nnfp()"
     - data2vec:
         model: "data2vec"
         op-name: "audio_embedding.data2vec"
