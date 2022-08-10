@@ -11,3 +11,11 @@ operator-implementations:
         implementation: "OpenCV"
         op-name: "image_decode.cv2"
         op-link: "https://towhee.io/image-decode/cv2"
+    - cv2_rgb:
+        implementation: "OpenCV"
+        op-name: "image_decode.cv2_rgb"
+        op-link: "https://towhee.io/image-decode/cv2-rgb"
+    - nvjpeg:
+        implementation: "NvJpeg"
+        op-name: "image_decode.nvjpeg"
+        op-link: "https://towhee.io/image-decode/nvjpeg"
