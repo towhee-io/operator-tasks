@@ -1,0 +1,13 @@
+task-name: "Machine Translation"
+description: "This is a task that automatically translates text from one language to another without human involvement. It is a fundamental task type in natual language processing."
+img-credit: "Translation"
+img-ref: "https://www.flaticon.com/free-icon/translation_2793765"
+models:
+    - oput-mt:
+        model: "Opus-MT"
+        op-name: "machine_translation.opus_mt"
+        op-link: "https://towhee.io/machine-translation/opus-mt"
+        pretrained-models:
+            - "machine_translation.opus_mt(model_name='opus-mt-en-zh')"
+            - "machine_translation.opus_mt(model_name='opus-mt-zh-en')"
+

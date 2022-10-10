@@ -1,4 +1,5 @@
 field-name: "Natural Language Processing"
 tasks:
   - text_embedding
+  - machine_translation
  
