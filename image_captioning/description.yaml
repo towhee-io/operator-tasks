@@ -3,6 +3,18 @@ description: "This is a task that generates the caption describing the content o
 img-credit: "Reflective Decoding Network for Image Captioning, ICCV'19"
 img-ref: "https://openaccess.thecvf.com/content_ICCV_2019/papers/Ke_Reflective_Decoding_Network_for_Image_Captioning_ICCV_2019_paper.pdf"
 models:
+    - expansionnet-v2:
+        model: "ExpansionNet v2"
+        op-name: "image_captioning.expansionnet-v2"
+        op-link: "https://towhee.io/image-captioning/expansionnet-v2"
+        pretrained-models:
+            - "image_captioning.expansionnet_v2(model_name='expansionnet_rf')"
+    - magic:
+        model: "MAGIC"
+        op-name: "image_captioning.magic"
+        op-link: "https://towhee.io/image-captioning/magic"
+        pretrained-models:
+            - "image_captioning.magic(model_name='magic_mscoco')"
     - clip-caption-reward:
         model: "CLIP Reward"
         op-name: "image_captioning.clip_caption_reward"
