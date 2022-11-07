@@ -13,7 +13,7 @@ models:
     - ru-clip:
         model: "Russian CLIP"
         op-name: "image_text_embedding.ru_clip"
-        op-link: "https://towhee.io/image-text-embedding/ru_clip"
+        op-link: "https://towhee.io/image-text-embedding/ru-clip"
         pretrained-models:
             - "image_text_embedding.ru_clip(model_name='ruclip-vit-base-patch32-224')"
             - "image_text_embedding.ru_clip(model_name='ruclip-vit-base-patch16-224')"
