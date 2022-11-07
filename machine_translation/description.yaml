@@ -10,4 +10,8 @@ models:
         pretrained-models:
             - "machine_translation.opus_mt(model_name='opus-mt-en-zh')"
             - "machine_translation.opus_mt(model_name='opus-mt-zh-en')"
+            - "machine_translation.opus_mt(model_name='opus-tatoeba-en-ja')"
+            - "machine_translation.opus_mt(model_name='opus-tatoeba-ja-en')"
+            - "machine_translation.opus_mt(model_name='opus-mt-ru-en')"
+            - "machine_translation.opus_mt(model_name='opus-mt-en-ru')"
 
