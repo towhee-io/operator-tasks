@@ -1,0 +1,22 @@
+task-name: "Code Search"
+description: "Code search allows to search code in archive by queries in natural language. A deep learning network for code search normally converts natural language and programming language to embeddings in same vector spaces. Code search calculates and ranks results by distances between embeddings."
+img-credit: "Natural language & programming language embeddings for semantic code search"
+img-ref: "https://towardsdatascience.com/semantic-code-search-3cd6d244a39c"
+models:
+    - unixcoder:
+        model: "unixcoder"
+        op-name: "code_search.unixcoder"
+        op-link: "https://towhee.io/code-search/unixcoder"
+        pretrained-models:
+            - "code_search.unixcoder(model_name='microsoft/unixcoder-base')"
+            - "code_search.unixcoder(model_name='microsoft/unixcoder-base-nine')"
+    - codebert:
+        model: "codebert"
+        op-name: "code_search.codebert"
+        op-link: "https://towhee.io/code-search/codebert"
+        pretrained-models:
+            - "code_search.codebert(model_name='huggingface/CodeBERTa-small-v1')"
+            - "code_search.codebert(model_name='microsoft/codebert-base')"
+            - "code_search.codebert(model_name='microsoft/codebert-base-mlm')"
+            - "code_search.codebert(model_name='mrm8488/codebert-base-finetuned-stackoverflow-ner')"
+            - "code_search.codebert(model_name='microsoft/graphcodebert-base')"
