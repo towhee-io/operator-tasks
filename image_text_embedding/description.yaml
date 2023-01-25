@@ -48,10 +48,10 @@ models:
         op-name: "image_text_embedding.clip"
         op-link: "https://towhee.io/image-text-embedding/clip"
         pretrained-models:
-            - "image_text_embedding.clip(model_name='clip_resnet_r50')"
-            - "image_text_embedding.clip(model_name='clip_resnet_r101')"
-            - "image_text_embedding.clip(model_name='clip_vit_b16')"
-            - "image_text_embedding.clip(model_name='clip_vit_b32')"
+            - "image_text_embedding.clip(model_name='clip_vit_base_patch16')"
+            - "image_text_embedding.clip(model_name='clip_vit_base_patch32')"
+            - "image_text_embedding.clip(model_name='clip_vit_large_patch14')"
+            - "image_text_embedding.clip(model_name='clip_vit_large_patch14_336')"
     - blip:
         model: "BLIP"
         op-name: "image_text_embedding.blip"
