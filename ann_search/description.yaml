@@ -9,5 +9,5 @@ operator-implementations:
         op-link: "https://towhee.io/ann-search/faiss"
     - milvus:
         implementation: "Milvus"
-        op-name: "ann_search.milvus"
-        op-link: "https://towhee.io/ann-search/milvus"
+        op-name: "ann_search.milvus_client"
+        op-link: "https://towhee.io/ann-search/milvus-client"
