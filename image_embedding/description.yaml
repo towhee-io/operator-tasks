@@ -3,6 +3,12 @@ description: "Image embedding is a task that attempts to comprehend an entire im
 img-credit: "Convolutional Neural Network Layers and Architectures"
 img-ref: "https://www.researchgate.net/publication/333242381_Convolutional_Neural_Network_Layers_and_Architectures"
 models:
+    - isc:
+        model: "ISC"
+        op-name: "image_embedding.isc"
+        op-link: "https://towhee.io/image-embedding/isc"
+        pretrained-models:
+            - "image_embedding.isc(timm_backbone='tf_efficientnetv2_m_in21ft1k')"
     - mpvit:
         model: "MPViT"
         op-name: "image_embedding.mpvit"
