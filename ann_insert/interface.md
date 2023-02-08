@@ -1,6 +1,6 @@
 **Parameters:**
 
-*data: list*
+*data: ndarray*
 
 The embedding data to be inserted.
 

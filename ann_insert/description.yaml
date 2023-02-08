@@ -5,5 +5,5 @@ img-ref: "https://engineering.fb.com/2017/03/29/data-infrastructure/faiss-a-libr
 operator-implementations:
     - milvus:
         implementation: "Milvus"
-        op-name: "ann_insert.milvus"
-        op-link: "https://towhee.io/ann-insert/milvus"
+        op-name: "ann_insert.milvus_client"
+        op-link: "https://towhee.io/ann-insert/milvus-client"

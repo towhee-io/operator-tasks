@@ -1,12 +1,12 @@
 **Parameters:**
 
-*query: list*
+*query: ndarray*
 
 Query embeddings in Milvus.
 
 
 **Returns:** 
 
-*Entity*
+*List*
 
 Return the results in Milvus, such as `id`, `score` or other query fields.
