@@ -6,7 +6,7 @@ operator-implementations:
     - index:
         implementation: "Index"
         op-name: "elasticsearch.index_client"
-        op-link: "https://towhee.io/elasticsearch/tindex-clien"
+        op-link: "https://towhee.io/elasticsearch/index-client"
     - search:
         implementation: "Search"
         op-name: "elasticsearch.search_client"
