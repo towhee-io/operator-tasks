@@ -4,4 +4,5 @@ tasks:
   - text_embedding
   - machine_translation
   - code_search
+  - chatbot
  

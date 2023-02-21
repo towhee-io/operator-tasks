@@ -1,0 +1,13 @@
+task-name: "ElasticSearch"
+description: "The ElasticSearch operator allows operations of ElasticSearch based on the Lucene library."
+img-credit: "Dev Ops Icons"
+img-ref: "https://libraries.excalidraw.com/"
+operator-implementations:
+    - index:
+        implementation: "Index"
+        op-name: "elasticsearch.index_client"
+        op-link: "https://towhee.io/elasticsearch/tindex-clien"
+    - search:
+        implementation: "Search"
+        op-name: "elasticsearch.search_client"
+        op-link: "https://towhee.io/elasticsearch/search-client"
