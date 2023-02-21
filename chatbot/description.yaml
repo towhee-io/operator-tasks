@@ -1,0 +1,9 @@
+task-name: "ChatBot"
+description: "The ChatBot operator uses language model(s) to reply to given context (prompts)."
+img-credit: "How Conversational Chatbots Marketing is the Future of eCommerce"
+img-ref: "https://towardsdatascience.com/how-conversational-chatbots-marketing-is-the-future-of-ecommerce-6743268caa11"
+operator-implementations:
+    - OpenAI:
+        implementation: "openai"
+        op-name: "chatbot.openai"
+        op-link: "https://towhee.io/chatbot/openai"
