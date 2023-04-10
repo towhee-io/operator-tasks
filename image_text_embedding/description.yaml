@@ -57,7 +57,10 @@ models:
         op-name: "image_text_embedding.blip"
         op-link: "https://towhee.io/image-text-embedding/blip"
         pretrained-models:
-            - "image_text_embedding.blip(model_name='blip_base')"
+            - "image_text_embedding.blip(model_name='blip_itm_base_coco')"
+            - "image_text_embedding.blip(model_name='blip_itm_base_flickr')"
+            - "image_text_embedding.blip(model_name='blip_itm_large_coco')"
+            - "image_text_embedding.blip(model_name='blip_itm_large_flickr')"
     - lightningdot:
         model: "LightningDOT"
         op-name: "image_text_embedding.lightningdot"
