@@ -1,7 +1,7 @@
 task-name: "Image Crop"
 description: "Image crop operators crop an image based on a set of given bounding boxes."
-img-credit: "Lenna"
-img-ref: "https://en.wikipedia.org/wiki/Lenna"
+img-credit: "COCO"
+img-ref: "https://cocodataset.org/"
 operator-implementations:
     - default:
         implementation: "Default"
