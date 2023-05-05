@@ -1,4 +1,4 @@
-field-name: "Search"
+field-name: "Connectors"
 tasks:
   - ann_search
   - ann_insert
